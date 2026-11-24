@@ -70,3 +70,19 @@ st.markdown(
     - **Distribution Reference:** Kaggle Mirror (`globalterrorismdb_0718dist.csv`, 1970–2017).
     """
 )
+
+st.markdown("---")
+
+st.markdown("### 👤 Author & Academic Affiliation")
+st.markdown(
+    """
+    **Shubham Kumar**<br/>
+    • **Academic Programme:** B.Tech in Computer Science and Engineering (7th Semester)<br/>
+    • **Institution:** National Institute of Technology Delhi (NIT Delhi)<br/>
+    • **Internship Programme:** Def-Space Summer Internship Programme 2026<br/>
+    • **Host Research Centre:** Bharat Space Education Research Centre (BSERC), New Delhi<br/>
+    • **Certificate Verification No:** `BSERC-DSI-2026-1417`<br/>
+    • **GitHub Profile:** [@shubham000111222](https://github.com/shubham000111222)
+    """,
+    unsafe_allow_html=True,
+)

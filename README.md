@@ -2,6 +2,7 @@
 ### *Historical Retrospective Analytics & Predictive Threat Modeling on the Global Terrorism Database (1970–2017)*
 
 [![CI Pipeline](https://github.com/shubham000111222/AI-Based-Military-Intelligence-and-Threat-Analysis-Dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/shubham000111222/AI-Based-Military-Intelligence-and-Threat-Analysis-Dashboard/actions/workflows/ci.yml)
+[![Author: Shubham Kumar](https://img.shields.io/badge/Author-Shubham%20Kumar-003366.svg)](https://github.com/shubham000111222)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.14-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.40+-FF4B4B.svg)](https://streamlit.io/)
 [![Coverage](https://img.shields.io/badge/Coverage-87%25-brightgreen.svg)](https://pytest.org/)
@@ -207,6 +208,19 @@ Detailed architectural blueprints, case studies, formal internship project repor
 - [`docs/model_card.md`](docs/model_card.md) — Formal machine learning model card with out-of-time evaluation metrics and limitations.
 - [`docs/slides_outline.md`](docs/slides_outline.md) — 12-slide executive presentation outline.
 - [`docs/decision_log.md`](docs/decision_log.md) — Architecture Decision Records (ADRs) covering modeling, time series, and security choices.
+
+---
+
+## 👤 Author & Academic Affiliation
+
+**Shubham Kumar**  
+- **Academic Programme:** Bachelor of Technology in Computer Science and Engineering (7th Semester)  
+- **Institution:** [National Institute of Technology Delhi (NIT Delhi)](https://nitdelhi.ac.in/)  
+- **Internship Programme:** Def-Space Summer Internship Programme 2026 (Theme: *Responsible Innovation for Inclusive Growth — Defence & Space Technologies*)  
+- **Host Research Organisation:** [Bharat Space Education Research Centre (BSERC)](https://www.bserc.org/), New Delhi  
+- **Certificate Verification Number:** `BSERC-DSI-2026-1417` (Awarded August 6, 2026)  
+- **GitHub Profile:** [@shubham000111222](https://github.com/shubham000111222)  
+- **Email:** [yshubham0103@gmail.com](mailto:yshubham0103@gmail.com)
 
 ---
 

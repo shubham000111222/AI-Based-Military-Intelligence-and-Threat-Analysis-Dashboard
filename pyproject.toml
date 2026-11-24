@@ -1,3 +1,13 @@
+[project]
+name = "ai-military-intelligence-dashboard"
+version = "1.0.0"
+description = "AI-Based Military Intelligence and Threat Analysis Dashboard (Historical Analytics)"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Shubham Kumar", email = "yshubham0103@gmail.com" }
+]
+
 [tool.ruff]
 line-length = 110
 target-version = "py311"

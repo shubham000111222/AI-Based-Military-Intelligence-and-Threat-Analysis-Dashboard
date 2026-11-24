@@ -11,7 +11,7 @@
 - **Model Type:** Multi-Class Gradient Boosted Decision Tree (LightGBM) & Ensemble Random Forest
 - **Release Date:** November 2026
 - **License:** MIT License (Research & Academic Use)
-- **Developed By:** Senior ML Engineer, Military Intelligence & Threat Analytics Portfolio Project
+- **Developed By:** Shubham Kumar (National Institute of Technology Delhi / Bharat Space Education Research Centre)
 
 ---
 
