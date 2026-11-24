@@ -1,0 +1,46 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    name: Lint, Test & Quality Smoke Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Code Quality & Linting (Ruff)
+        run: |
+          ruff check .
+
+      - name: Data-Quality Smoke Check
+        run: |
+          python -c "
+          from src.data_loader import generate_synthetic_gtd, clean_data
+          from src.data_quality import compute_annual_data_quality_scores
+          df = clean_data(generate_synthetic_gtd(200, seed=42))
+          scores = compute_annual_data_quality_scores(df)
+          assert len(scores) > 0, 'Quality scores must not be empty'
+          print(f'Data quality smoke check PASSED on {len(df)} synthetic records across {len(scores)} years.')
+          "
+
+      - name: Run Test Suite with Pytest Coverage
+        run: |
+          pytest -v --cov=src --cov-report=term-missing tests/

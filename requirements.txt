@@ -1,0 +1,37 @@
+# Core Data & ML
+pandas>=2.2.0,<3.1.0
+numpy>=1.26.0,<2.5.0
+scipy>=1.13.0,<1.18.0
+scikit-learn>=1.4.0,<1.9.0
+pyarrow>=15.0.0,<24.0.0
+joblib>=1.4.0,<1.6.0
+
+# Boosted Trees & Interpretability
+catboost>=1.2.7
+lightgbm>=4.3.0
+shap>=0.45.0
+
+# Time Series & Clustering
+statsmodels>=0.14.0
+
+# Graphs & Networks
+networkx>=3.2.0
+pyvis>=0.3.2
+
+# Visualization & App
+streamlit>=1.38.0,<1.57.0
+plotly>=5.22.0,<6.9.0
+
+# NLP & Embeddings
+spacy>=3.7.4
+sentence-transformers>=3.0.0
+
+# Generative AI & Reporting
+google-genai>=0.1.1
+fpdf2>=2.7.9
+reportlab>=4.2.0
+
+# Testing & Linting
+pytest>=8.1.0
+pytest-cov>=5.0.0
+ruff>=0.5.0

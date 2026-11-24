@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Never commit raw GTD data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.csv
+!data/processed/gtd_slim.parquet
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Testing & Coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Artifacts & Models (Include precomputed deployment artifacts, ignore raw checkpoints)
+*.pkl
+models/*.cbm
+!models/attack_model.joblib
+!artifacts/shap_explainer.joblib
+!artifacts/embeddings.npy
+!artifacts/fallback_vectorizer.joblib
+!artifacts/nmf_topic_model.joblib
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary scratch
+tmp/
+scratch/

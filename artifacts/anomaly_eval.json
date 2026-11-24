@@ -1,0 +1,25 @@
+{
+  "evaluation_period": "2013\u20132017",
+  "total_test_months": 1904,
+  "true_surge_months": 12,
+  "models": {
+    "Rolling Z-Score Detector (z >= 2.0)": {
+      "precision": 0.016,
+      "recall": 0.167,
+      "f1_score": 0.029,
+      "average_lead_time_months": 1.8
+    },
+    "Isolation Forest Detector": {
+      "precision": 0.014,
+      "recall": 0.25,
+      "f1_score": 0.027,
+      "average_lead_time_months": 2.1
+    },
+    "Fixed-Threshold Baseline (90th Pct)": {
+      "precision": 0.013,
+      "recall": 0.75,
+      "f1_score": 0.026,
+      "average_lead_time_months": 0.8
+    }
+  }
+}
